@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Day-2</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- PAN Card Update Form -->
+ 
+  <table>
+    <thead>
+      <th></th>
+      <th><div class="heading">
+        <b>Request for the new PAN Card/ Changes Or Corrections in PAN Card</b><br>
+        <i>Field Marked with <span class="main">*</span> (asterik) are mandatory.To Avoid Mistake Please refer
+          <u>guidelines</u> and <u>instructions</u></i>
+      </div></th>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+        <td colspan="2"><span>*</span> <b>Whether citizen of India</b>
+
+          <label for="yes" style="padding-left:60px;">Yes</label>
+          <input type="radio" name="" id="yes">
+
+          <label for="no" style="padding-left: 20px;">No</label>
+          <input type="radio" name="" id="no">
+        </td>
+      </tr>
+      <!-- 1st end here -->
+
+      <!-- 2nd one  -->
+
+      <tr>
+
+        <td></td>
+        <td colspan="2"><span>*</span> <b>Permanent Account Number (PAN)</b>
+          <input type="text" name="" id="">
+        </td>
+      </tr>
+
+      <!-- 3rd -->
+      <tr>
+        <td  style="width:2%; text-align: center;"><input type="checkbox" name="" id=""></td>
+
+        <td colspan="2"><span>*</span> <b>1.Name</b></td>
+      </tr>
+
+      <!-- Title -->
+
+      <tr>
+        <td></td>
+        <td colspan="2"><b>Title</b>
+          <label for="shri" style="padding-left: 20px; line-height: 12px;">Shri/Mr</label>
+          <input type="radio" name="" id="shri">
+
+          <label for="smt" style="padding-left: 20px;">Smt/Mrs</label>
+          <input type="radio" name="" id="smt">
+
+          <label for="ms" style="padding-left: 20px;">Kumar/Ms</label>
+          <input type="radio" name="" id="ms">
+
+        </td>
+
+      </tr>
+      <!-- Title end -->
+
+      <!-- Name list -->
+
+      <tr>
+
+        <td></td>
+
+        <td colspan="2">
+          <div class="threebox">
+          <div style="display: inline-block;">
+            <b>
+              <label for="last">Lastname/Surname</label>
+              <br>
+              <input type="text" name="" id="last">
+            </b>
+          </div>
+          <div style="display: inline-block">
+            <b>
+              <label for="first">First name</label><br>
+              <input type="text" name="" id="first">
+            </b>
+          </div>
+          <div style="display: inline-block;">
+            <b>
+              <label for="middle">Lastname/Surname</label><br>
+              <input type="text" name="" id="Middle">
+            </b>
+          </div>
+        </div>
+        </td>
+
+      </tr>
+      <!-- Card -->
+
+      <tr>
+        <td></td>
+
+        <td colspan="2"><span>*</span> <b>Name as you would like it printed on the card</b>
+          <span style="color:blue">(Prefix likeShri,Smt,Kumari,Late,DR,CA,MS,Mrs,M/s,Allas etc, are not allowed)</span>
+        </td>
+
+      </tr>
+
+      <!-- Empty input box -->
+      <tr>
+        <td></td>
+        <td colspan="2"><input type="text" name="" id=""></td>
+      </tr>
+
+      <!-- Details of parent -->
+
+      <tr>
+        <td></td>
+        <td  colspan="2"><b>Deatails of Parent.</b> <span style="color:blue;">(Prefix likeShri,Smt,Kumari,Late,DR,CA,MS,Mrs,M/s,Allas etc, are not allowed)</span></td>
+      </tr>
+<tr>
+  <td>
+  </td>
+
+  <td  colspan="2"><b style="padding-right:40px;">Whether mother is single parent and you wish to apply for PAN by furnishing the name of your mother only</b>
+
+
+<label for="yes" style="padding-left:10px; border-left:1px solid">Yes</label>
+<input type="radio" name="gender" id="yes">
+
+<label for="no"style="padding-left:30px">No</label>
+<input type="radio" name="gender" id="no">
+
+  </td>
+</tr>
+<!-- Fathers name -->
+
+<tr>
+
+<td><input type="checkbox" name="" id=""></td>
+
+<td colspan="2"><span>*</span><b>Fathers name</b><span style="color:blue">(Mandatory field.Even married women should give fathers name only)</span></td>
+
+</tr>
+
+<!-- Father name input field -->
+<tr>
+  <td></td>
+  <td colspan="2">
+    <div class="threebox">
+<div style="display:inline-block">
+
+<label for="surename">Lastname/surename</label><br>
+<input type="text">
+</div>
+<div style="display:inline-block">
+
+  <label for="surename">Lastname/surename</label><br>
+  <input type="text">
+  </div>
+  <div style="display:inline-block">
+
+    <label for="surename">Lastname/surename</label><br>
+    <input type="text">
+    </div>
+  </div>
+</td>
+</tr>
+
+
+<!-- Parent name -->
+
+<tr>
+  <td></td>
+  
+  <td ><span>*</span> <b>4. Select parent name which is to be printed on the card</b>
+  <br>
+<span style="color:blue;">(In case no option is provided then PAN card will be issued with father's name)</span>
+</td>
+<td>
+  <label for="father" style="padding-left: 20px; ">Fathers Name</label>
+  <input type="radio" name="" id="father">
+
+  <label for="mother" style="padding-left: 20px;" >Mother name</label>
+  <input type="radio" name="" id="mother">
+
+</td>
+
+</tr>
+
+    </tbody>
+
+
+
+  </table>
+  </body>
+
+</html>
