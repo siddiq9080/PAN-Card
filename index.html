@@ -5,61 +5,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HTML Day-2</title>
- 
-<style>
+  <link rel="stylesheet" href="style.css">
 
-*{
-    margin:0;
-    padding:0;
-}
-
-.heading,th{
-    background-color: brown;
-    color: white;
-    text-align: center;
- }
-u{
-    color: orange;
-}
-.main{
-    color:red;
-}
-body{
-    background-color: bisque;
-    background-color: rgba(255,228,196,0.7);
-}
-
-table,tr,td{
-    border:1px solid black;
-    border-collapse: collapse;
-}
-
-table{
-    width: 100%;
-}
-
-span{
-    color:red;
-    width:8px;
-    height: 8px;
-}
-
-.threebox
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-right:30%;
-    
-}
-
-
-
-
-
-  </style>
   <!-- PAN Card Update Form -->
- <body>
+ <body></body>
   <table>
     <thead>
       <th></th>
@@ -192,7 +141,7 @@ span{
 
 <tr>
 
-<td><input type="checkbox" name="" id=""></td>
+<td style="width:2%; text-align: center;"><input type="checkbox" name="" id=""></td>
 
 <td colspan="2"><span>*</span><b>Fathers name</b><span style="color:blue">(Mandatory field.Even married women should give fathers name only)</span></td>
 
@@ -241,6 +190,156 @@ span{
 
 </td>
 
+</tr>
+<!-- Date of Birth -->
+<tr>
+<td style="width:2%; text-align: center;"><input type="checkbox" name="" id=""></td>
+
+<td><span>*</span>Date of Birth/Incorporation/Agreement/ Partnership <br> or Trust Deed/Formation of Body  of inviduals/ <br>Association of persons</td>
+
+<td style="padding-left: 20px;">
+  <p>DD MM YYYY</p>
+  <input type="date" name="" id=""></td>
+</tr>
+
+<!-- Gender -->
+
+<tr>
+<td style="width:2%; text-align: center;"><input type="checkbox" name="" id=""></td>
+
+<td><span>*</span><b>6.Gender</b></td>
+
+<td style="padding-left: 20px;">
+<label for="male">Male</label>
+<input type="radio" name="gender" id="male">
+
+<label for="female">Female</label>
+<input type="radio" name="gender" id="female">
+
+<label for="other">Other</label>
+<input type="radio" name="gender" id="other">
+</td>
+</tr>
+
+
+<!-- Photo Mismatch -->
+<tr>
+<td style="width:2%; text-align: center;"><input type="checkbox" name="" id=""></td>
+
+<td colspan="3"><b>7.Photo Mismatch</b></td>
+
+</tr>
+
+<!-- Signatur Mismatch -->
+
+<tr>
+
+<td style="width: 2%;text-align:center"><input type="checkbox" name="" id=""></td>
+
+<td colspan="3"><b>8.Signature mismatch</b></td>
+
+</tr>
+
+<!-- Address communication -->
+
+<tr>
+<td style="width: 2%;text-align:center"><input type="checkbox" name="" checked id=""></td>
+
+<td><span>*</span><b>9.Address for communication</b></td>
+
+<td style="padding-left: 20px;">
+  <label for="residental">Residental</label>
+<input type="radio" name="Address" id="residental">
+
+<label for="office">Office</label>
+
+<input type="radio" name="Address" id="office">
+
+</td>
+</tr>
+
+<!-- Office name -->
+
+<tr>
+  <td></td>
+  <td><b>Office Name</b> <span style="opacity: 0.7; color:black">(to be filled only in case of office address)</span></td>
+
+  <td><input type="text" name="" id=""></td>
+</tr>
+
+<!-- Flat Door -->
+
+<tr>
+  <td></td>
+  <td><b>Flat/Door/Block no.</b></td>
+
+  <td><input type="text" name="" id=""></td>
+</tr>
+
+<!-- Building  -->
+
+<tr>
+  <td></td>
+  <td><b>Name of Premises/Buildind/Village</b></td>
+
+  <td><input type="text" name="" id=""></td>
+</tr>
+
+<!-- Road/Street -->
+
+<tr>
+  <td></td>
+  <td><b>Road/Street/Lane/Post office</b></td>
+
+  <td><input type="text" name="" id=""></td>
+</tr>
+
+<!-- Area -->
+
+<tr>
+  <td></td>
+  <td><b>Area/Locality/Taluka/SUb-division</b></td>
+
+  <td><input type="text" name="" id=""></td>
+</tr>
+
+<!-- Town/city -->
+
+<tr>
+  <td></td>
+  <td><b>Town city/District</b></td>
+
+  <td><input type="text" name="" id=""></td>
+</tr>
+
+<!-- State/Union-->
+
+<tr>
+  <td></td>
+  <td><b>State/Union Territory</b></td>
+
+  <td>
+ 
+
+  </td>
+</tr>
+
+<!-- Town/city -->
+
+<tr>
+  <td></td>
+  <td><b>Town city/District</b></td>
+
+  <td><input type="text" name="" id=""></td>
+</tr>
+
+<!-- Town/city -->
+
+<tr>
+  <td></td>
+  <td><b>Town city/District</b></td>
+
+  <td><input type="text" name="" id=""></td>
 </tr>
 
     </tbody>
